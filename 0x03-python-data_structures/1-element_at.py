@@ -3,9 +3,9 @@ def element_at(my_list, idx):
     if idx < 0:
         return (None)
 
-    element = len(my_list)
+    span = len(my_list)
 
-    if idx > element - 1:
+    if idx > span - 1:
         return (None)
 
     return(my_list[idx])

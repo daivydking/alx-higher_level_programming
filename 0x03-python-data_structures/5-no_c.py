@@ -2,7 +2,7 @@
 def no_c(my_string):
     length = len(my_string)
 
-    i = 0
+    j = 0
 
     new_string = my_string[:]
 
